@@ -21,3 +21,4 @@ int main()
     cout<<"The array elements are \n";
     for (int i=0;i<b;i++){
       cout<<arr[i]<<"   \t";}
+}
