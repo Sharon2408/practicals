@@ -8,7 +8,7 @@ int main()
     int e=0;
     int o=0;
     int b,i,j;
-    cout<<"************Enter your choice **********"<<endl;
+    cout<<"************To find the even and odd numbers in a ARRAY **********"<<endl;
 
     cout<<"Enter the total number of elements you want : "<< endl;
     cin>>b;
