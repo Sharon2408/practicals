@@ -2,11 +2,7 @@
 using namespace std;
 int main()
 {
-    int arr[20];
-    int evenar[10];
-    int oddar[10];
-    int e=0;
-    int o=0;
+    int arr[20][20];
     int b,i,j;
     cout<<"************To find the even and odd numbers in a ARRAY **********"<<endl;
 
