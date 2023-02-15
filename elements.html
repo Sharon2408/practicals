@@ -1,39 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BORDER</title>
     <style>
-        p{
+        div {
+            background-color: rgb(1, 17, 11);
+            font: size 20px;
             border-style: ridge;
             border-width: 10px;
-            border-top-width: 10px; 
-            color: red;
+            border-top-width: 10px;
+            border-right: 20px;
+            border-color: brown;
+            color: blueviolet;
             outline-style: dashed;
             outline-color: blue;
             outline-width: 10px;
             outline-offset: 5px;
+            outline-width: 10px;
         }
-        #a{
+
+        #a {
             border-style: ridge;
             border-width: 10px;
-            border-top-width: 10px; 
-            color: rgba(68, 0, 255, 0.281);
-            outline-style: dashed;
-            outline-color: rgba(212, 0, 255, 0.219);
+            border-top-width: 10px;
+            color: rgb(0, 255, 47);
+            font-size: medium;
+            outline-style: double;
+            outline-color: rgb(255, 0, 0);
+            outline-width: 10px;
+            outline-offset: 5px;
+        }
+
+        p {
+            border-style: double;
+            border-width: 10px;
+            border-top-width: 10px;
+            color: rgb(68, 0, 255);
+            outline-style: dotted;
+            outline-color: rgb(0, 255, 30);
+            outline-width: 10px;
+            outline-offset: 5px;
+
+        }
+
+        p.sha {
+            border-style: ridge;
+            border-width: 10px;
+            border-top-width: 10px;
+            color: rgb(6, 241, 245);
+            outline-style: dotted;
+            outline-color: rgb(231, 16, 199);
+            outline-width: 10px;
+            outline-offset: 5px;
+        }
+
+        h4.ron {
+            border-style: ridge;
+            border-width: 10px;
+            border-top-width: 10px;
+            color: rgb(6, 241, 245);
+            outline-style: dotted;
+            outline-color: rgb(231, 16, 199);
+            outline-width: 10px;
+            outline-offset: 5px;
+        }
+
+        *pre,h1{
+
+            border-style: ridge;
+            border-width: 10px;
+            border-top-width: 10px;
+            color: rgb(6, 241, 245);
+            outline-style: dotted;
+            outline-color: rgb(231, 16, 199);
             outline-width: 10px;
             outline-offset: 5px;
         }
     </style>
 </head>
+
 <body>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero? Iure quae ipsam dolorem ullam voluptatem
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero? Iure quae ipsam dolorem ullam
+        voluptatem
         beatae voluptate fugiat nesciunt. Odio repellendus cum vero mollitia. Veritatis, voluptatibus velit. Sapiente,
-        consequatur.</p><br><br>
-        <p id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero? Iure quae ipsam dolorem ullam voluptatem
-            beatae voluptate fugiat nesciunt. Odio repellendus cum vero mollitia. Veritatis, voluptatibus velit. Sapiente,
-            consequatur.</p>
+        consequatur.</div><br><br>
+    <pre id="a">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Maiores, vero? Iure quae ipsam dolorem ullam voluptatem
+            beatae voluptate fugiat nesciunt.
+             Odio repellendus cum vero mollitia. Veritatis, voluptatibus velit. Sapiente,
+            consequatur.</pre><br>
+    <p class="sha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero? Iure quae ipsam doloremullam
+        voluptatembeatae voluptate fugiat nesciunt.
+        Odio repellendus cum vero mollitia. Veritatis, voluptatibus velit. Sapiente,
+        consequatur.</p>
+    <h4 class="ron">GOOD MORNING</h4><br><br>
+    <pre>Lorem ipsum dolor sit amet consectetur, 
+        adipisicing elit. Adipisci quis voluptas expedita autem nostrum error atque q
+        uia! Soluta sint saepe doloribus, quaerat cumque tempore dolorem rerum quibusdam, harum totam sunt?</pre>
+        <h1>CSS DEMO</h1>
+        <div id="f" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, vero? Iure quae ipsam doloremullam
+            voluptatembeatae voluptate fugiat nesciunt.
+            Odio repellendus cum vero mollitia. Veritatis, voluptatibus velit. Sapiente,
+            consequatur</div>
 </body>
+
 </html>
