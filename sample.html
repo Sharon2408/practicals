@@ -67,7 +67,7 @@
 
         .six {
             position: absolute;
-            top: 80%;
+            top: 75%;
             left: 40%;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
@@ -75,7 +75,7 @@
 
         .seven {
             position: absolute;
-            top: 88%;
+            top: 85%;
             text-shadow: 0 0 3px #e9fa01, 0 0 5px #d9ff05;
             text-shadow: 0 0 3px #0a0101, 0 0 5px #0000FF;
             font-size: large;
@@ -97,69 +97,91 @@
             margin-right: 70px;
 
         }
-        .eight:hover{
+
+        .eight:hover {
             transform: scale(1.5);
         }
 
         #mainmargin {
             margin-top: 50px;
             margin-left: 60px;
-            
+
         }
 
         #para {
             margin-right: 65px;
         }
-        #bor{
+
+        #bor {
             border-radius: 50px;
             border-color: #45065e;
             border-width: 10px;
         }
-        #para1{
+
+        #para1 {
             margin-right: 65px;
         }
-        #bor1{
+
+        #bor1 {
             border-radius: 50px;
             border-color: #45065e;
             border-width: 10px;
         }
+
+        .column {
+            float: left;
+            width: 47%;
+            padding: 20px;
+            height: 300px;
+            text-decoration: none;
+            border-radius: 50px;
+            
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            text-decoration: none;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .column1 {
+            float: left;
+            width: 47%;
+            padding: 10px;
+            height: 300px;
+            text-decoration: none;
+            border-radius: 50px;
+        }
+
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+            text-decoration: none;
+        }
+
+        .eleven {
+            text-decoration: none;
+            padding: 230px;
+            -webkit-text-fill-color: #f0d802f5;
+        }
+        .foot{
+            border-radius: 50px;
+            border-color: #6A82FB;
+        }
        
-.column {
-  float: left;
-  width: 50%;
-  padding: 20px;
-  height: 300px; 
-  text-decoration: none;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-  text-decoration: none;
-}
-* {
-  box-sizing:border-box;
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-}
-.column1{
-  float: left;
-  width: 50%;
-  padding: 10px;
-  height: 300px; 
-  text-decoration: none;
-}
-.row1:after {
-  content: "";
-  display: table;
-  clear: both;
-  text-decoration: none;
-}
     </style>
 </head>
 
 <body
-    style="background: #00c3ff;background: -webkit-linear-gradient(to right, #00c3ff, #ffff1c);background: linear-gradient(to right, #00c3ff, #ffff1c); ">
+    style= "background: #FC5C7D;
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);">
 
     <nav class="one">
         <img src="bin/Assets/1676530082050 (2).jpg  "
@@ -175,17 +197,17 @@
     </nav>
     <div id="mainmargin">
         <div class="three">
-            <img src="bin/Assets/Hero_Banner_192x535_RF.png" style="width: 1200px; height: 900; opacity: 1.0; ">
-        </div>
+            <img src="bin/Assets/Hero_Banner_192x535_RF.png" style="width: 1200px; height: 900; opacity: 1.0; border-radius: 50px; ">
+        </div><br><br>
         <div class="centered">Enter your email-ID to Fun Learn <br>
             <form action="f.html" method="post">
                 <input type="email" placeholder="xyz@abc.com"><br>
-                <button type="submit" style="margin-left: 150px;">SUBMIT</button>
+                <button type="submit" style="margin-left: 140px;">Click to proceed</button>
             </form>
         </div>
         <span class="five">
-            <img src="bin/Assets/Hero_Banner_192x535_RF.png" alt="sha" style="width: 1200px; height: 200px;  " ;>
-        </span>
+            <img src="bin/Assets/Hero_Banner_192x535_RF.png" alt="sha" style="width: 1200px; height: 200px; border-radius: 50px;  " ;>
+        </span><br>
 
         <h1 class="six">SHA EDU</h1>
         <pre class="seven">
@@ -196,12 +218,46 @@
         Lorem ipsum dolorsit amet consectetur adipisicing elit. 
         Reiciendis optio, sequi nostrum voluptatibus earum, 
         laborum aut distinctio eveniet ipsum consequatur ut cum fugit error, qui at illo ad cupiditate asperiores.
-        </pre>
+        </pre><br>
         <div id="para">
             <fieldset id="bor">
-           
-            <a class="eight" href="https://www.docker.com/">
-                <img src="bin/Assets/docker.png">
+
+                <a class="eight" href="https://www.docker.com/">
+                    <img src="bin/Assets/docker.png">
+                </a>
+
+                <p>
+                    Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that
+                    enables you to
+                    build and share containerized applications and microservices.It provides a straightforward GUI
+                    (Graphical User Interface) that lets you manage your containers, applications, and
+                    images directly from your machine. Docker Desktop can be used either on its own or as a
+                    complementary
+                    tool to the
+                    CLI.Docker Desktop reduces the time spent on complex setups so you can focus on writing code. It
+                    takes
+                    care of port
+                    mappings, file system concerns, and other default settings, and is regularly updated with bug fixes
+                    and
+                    security
+                    updates.Docker Desktop is a one-click-install application for your Mac, Linux, or Windows
+                    environment
+                    that enables you to
+                    build and share containerized applications and microservices.It provides a straightforward GUI
+                    (Graphical User Interface) that lets you manage your containers, applications, and
+                    images directly from your machine. Docker Desktop can be used either on its own or as a
+                    complementary
+                    tool to the
+                    CLI.
+                </p>
+            </fieldset>
+        </div><br><br>
+   
+    <div id="para1">
+        <fieldset id="bor1">
+
+            <a class="eight" href="https://kubernetes.io/">
+                <img src="bin/Assets/kuber.png">
             </a>
 
             <p>
@@ -223,84 +279,66 @@
                 tool to the
                 CLI.
             </p>
-            </fieldset>
-        </div>
-    </div>
-    <div id="para1">
-        <fieldset id="bor1">
-       
-        <a class="eight" href="https://kubernetes.io/">
-            <img src="bin/Assets/kuber.png">
-        </a>
-
-        <p>
-            Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment that
-            enables you to
-            build and share containerized applications and microservices.It provides a straightforward GUI
-            (Graphical User Interface) that lets you manage your containers, applications, and
-            images directly from your machine. Docker Desktop can be used either on its own or as a complementary
-            tool to the
-            CLI.Docker Desktop reduces the time spent on complex setups so you can focus on writing code. It takes
-            care of port
-            mappings, file system concerns, and other default settings, and is regularly updated with bug fixes and
-            security
-            updates.Docker Desktop is a one-click-install application for your Mac, Linux, or Windows environment
-            that enables you to
-            build and share containerized applications and microservices.It provides a straightforward GUI
-            (Graphical User Interface) that lets you manage your containers, applications, and
-            images directly from your machine. Docker Desktop can be used either on its own or as a complementary
-            tool to the
-            CLI.
-        </p>
-        <p></p>
-    </fieldset>
+            <p></p>
+        </fieldset>
     </div><br><br>
     <div class="row">
         <div class="column" style="background-color:#eef609;">
-          <h2 style="text-align:center;">Learn About Kubernetes </h2>
-          <a href="" style="text-decoration: none;">
-            <ul>
-                <li >Docker</li>
-                <li>Kubernetes</li>
-                <li>docker</li>
-                <li>CI/CD</li>
-                <li>image</li>
-                <li>containers</li>
-                <li>pull and push images</li>  
-            </ul>
-        </a>
+            <h2 style="text-align:center;">Learn About Kubernetes </h2>
+            <a href="" style="text-decoration: none;">
+                <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>docker</li>
+                    <li>CI/CD</li>
+                    <li>image</li>
+                    <li>containers</li>
+                    <li>pull and push images</li>
+                </ul>
+            </a>
         </div>
         <div class="column" style="background-color:#08f8d8;">
-          <h2 style="text-align: center;">Learn About Docker</h2>
-         <a href="" style="text-decoration: none;"> <ul >
-            <li >Docker</li>
-            <li>Kubernetes</li>
-            <li>docker</li>
-            <li>CI/CD</li>
-            <li>image</li>
-            <li>containers</li>
-            <li>pull and push images</li>
+            <h2 style="text-align: center;">Learn About Docker</h2>
+            <a href="" style="text-decoration: none;">
+                <ul>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>docker</li>
+                    <li>CI/CD</li>
+                    <li>image</li>
+                    <li>containers</li>
+                    <li>pull and push images</li>
 
-          </ul>
-        </a>
+                </ul>
+            </a>
         </div>
-      </div><br><br>
-      <div class="row1">
+    </div><br><br>
+    <div class="row1">
         <div class="column1" style="background-color:#530a5eb0;">
-        <h2 style="text-align: center;">What we Do</h2>
-        <pre style="padding: 20px;">We organise full time Live classes and interactive teacher student session adipisicin
-100+ live sessions and 1000+ projects
-
-                                   JOIN NOW</pre>
+            <h2 style="text-align: center;">What we Do</h2>
+            <p style="padding: 20px;">We organise full time Live classes and interactive teacher student session
+                adipisicin
+                100+ live sessions and 1000+ projects Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                voluptatum perferendis, asperiores labore et explicabo aspernatur officiis consectetur veniam non ipsam
+                aut inventore repellat! Tenetur, perspiciatis adipisci? Doloribus, exercitationem ipsum.</p>
+                <a class="eleven" href="" >JOIN NOW</a>
         </div>
-    
-    <div class="column1" style="background-color:#283975d6;"> 
-        <h2 style="text-align: center;">What We Plan For Future</h2>
-        <pre style="padding: 20px;">WE organise 1000+ 10LPA packages for placement
-            
-                                   JOIN NOW</pre>  
+
+        <div class="column1" style="background-color:#283975d6;">
+            <h2 style="text-align: center;">What We Plan For Future</h2>
+            <p style="padding: 20px;">WE organise 1000+ 10LPA packages for placement Lorem ipsum,
+                dolor sit amet consectetur adipisicing elit.
+                Rem veniam impedit autem architecto laboriosam sequi! Vel nulla,
+                exercitationem id assumenda repellat est magnam voluptates ullam
+                dignissimos repellendus cumque, harum tenetur.
+                inventore repellat! Tenetur, perspiciatis adipisci? Doloribus, exercitationem ipsum.</p>
+            <a class="eleven" href="" >JOIN NOW</a>
+
+        </div>
     </div>
-</div>
+   
+</div> 
+
 </body>
 
 </html>
