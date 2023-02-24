@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const friends = ["sharon", "hari", "harshan", "hemanth"];
+        function add_begining() {
+            var val1 = document.getElementById('friend').value;
+            friends.unshift(val1);
+            alert(friends);
+
+        }
+        function add_end(){
+            var val2 = document.getElementById('friend').value;
+            friends.push(val2);
+            alert(friends);
+        }
+        function del_end(){
+            var val3 = document.getElementById('friend').value;
+            friends.pop(val3);
+            alert(friends);
+
+
+        }
+        function shift_end(){
+            var val3 = document.getElementById('friend').value;
+            friends.pop(val3);
+            alert(friends);
+
+
+        }
+    </script>
+
+</head>
+
+<body>
+    <form name="frnd">
+        <label for="">Enter your friends Name</label>
+        <input type="text" id="friend"><br><br>
+        <button type="button" onclick="add_begining()"> Click to add in front</button><br><br>
+        <button type="button" onclick="add_end()"> Click to add in last</button><br><br>
+        <button type="button" onclick="del_end()"> Click to delete in last</button><br><br>
+        <button type="button" onclick="shift_end()"> Click to delete in first</button><br><br>
+    </form>
+
+</body>
+
+</html>
