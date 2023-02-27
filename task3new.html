@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <i> <h2 id="Details"></h1></i>
+   <script>
+    
+    function person(name, age, gender, address) {
+            this.name = name;
+            this.age = age;
+            this.gender = gender;
+            this.address = address;
+
+        }
+        var sha = new person("Sharon", 20, "Male", "Poonthottam , Coimbatore");
+
+        function display() {
+            document.getElementById("Details").innerHTML = (sha.name + ", " + sha.age + ", " + sha.gender + ", " + sha.address);
+        }
+        display();
+   </script> 
+    <h2 id="Details2" ></h4>
+    <script>
+        class Person {
+            constructor(name, age, gender, address) {
+                this.name = name;
+                this.age = age;
+                this.gender = gender;
+                this.address = address;
+               
+            }
+           
+        }
+        class Employee extends Person {
+            constructor(name, age, gender, address, employee_code, department, role, salary) {
+                super(name, age, gender, address);
+                this.employee_code = employee_code;
+                this.department = department;
+                this.role = role;
+                this.salary = salary;
+            }
+
+
+            display() {
+                document.getElementById("Details2").innerHTML = (emp.name + ", " + emp.age + ", " + emp.gender + ", " +
+                    emp.address + ", " + emp.employee_code + ", " + emp.department + ", " + emp.role + ", " + emp.salary);
+
+            }
+        }
+       var  emp = new Employee('Sharon', 20, 'Male', 'Coimbatore India', "145", 'SoftwareDeveloping', 'BackendDeveloper', 350000);
+        emp.display();
+    </script>
+</body>
+</html>
