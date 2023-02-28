@@ -15,85 +15,80 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <style>
-        .container {
-            background-color: rgb(29, 29, 75);
-            height: 75px;
-            width: 1550px;
-            font-size: larger;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #ffffff;
-
-        }
-       
-
-        #logo {
-            margin-left: 30px;
-            padding-top: 8px;
-            padding-left: 90px;
-
-        }
-
         body {
             margin: 0px;
+        }
+
+        #logo {
+            padding-left: 40px;
+        }
+
+        #nav1 {
+            background-color: rgb(20, 20, 70);
+            width: 1440px;
+
+        }
+
+        .centered {
+            position: absolute;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            font-size: 90px;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        #bgimg {
+            width: 1440px;
+            height: 707px;
+            background-image: url(Artboard\ 1.png);
+
+
+        }
+
+        .centered2 {
+            position: absolute;
+            top: 70%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            color: #ffffff;
         }
     </style>
 </head>
 
-<body style="background-image: url(Artboard\ 1.png);">
+<body>
+    <div id="bgimage1">
+        <nav id="nav1" class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <img id="logo" src="Vector Smart Object.png" height="50px" width="150px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" style="padding-left: 250px;" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" style="padding-left: 70px;" href="#">Product</a>
+                        <a class="nav-link" style="padding-left:70px;" href="#">Promo</a>
+                        <a class="nav-link" style="padding-left: 70px;" href="#">About</a>
+                        <a class="nav-link" style="padding-left: 70px;" href="#">Contact</a>
+                        <a class="nav-link" style="padding-left: 270px;" href="#"><img src="Search.png"></img></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="bgimg">
 
-    <!-- <nav class="navbar navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img id="logo" src="logo1.png" alt="weblogo" width="70" height="60">
-
-            </a>
-
-        </div>
-
-    </nav> -->
-    
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+            <div class="centered">Title Here</div>
+            <div class="centered2">
+                <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+Voluptates perspiciatisdebitis distinctio sunt totam magni ipsum doloribus 
+illum ab sapiente porro ducimus in, cum eligendi,iusto quaerat, atque hic earum.</pre>
             </div>
         </div>
-    </nav>
-
+    </div>
 </body>
 
 </html>
