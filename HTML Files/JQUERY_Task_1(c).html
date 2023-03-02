@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        .one {
+            background-color: rgb(10, 208, 230);
+            height: 200px;
+            width: 500px;
+            padding-left: 350px;
+            padding-top: 150px;
+        }
+
+        .two {
+            background-color: rgb(249, 6, 6);
+            height: 300px;
+            width: 500px;
+            padding-left: 350px;
+            padding-bottom: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $("#head2").hide();
+            $("div").mouseenter(function () {
+                $("#one").addClass("two");
+                $("#head1").hide();
+                $("#head2").show();
+                
+            });
+            $("div").mouseleave(function () {
+                $("#one").removeClass("two");
+                $("#head1").show();
+                $("#head2").hide();
+            });
+            
+        });
+
+    </script>
+    <div class="one" id="one">
+        <h1 id="head1">Welcome Guys</h1>
+        <h2 id="head2">BYEEEEEE!!!!!!!!!!!!!!!!!!!</h2>
+    </div>
+
+</body>
+
+</html>
