@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <script>
+        $(document).ready(function () {
+            $("#toggle").click(function () {
+                $("div").toggle();
+            });
+        });
+    </script>
+    <br>
+    <div style="background-color: aquamarine;">
+        <legend style="text-align: center;"> Registration Form</legend>
+        <form name="regform" action="" method="post" onsubmit="sub()">
+            </legend>
+            <label for=""></label>
+            <legend style="text-align:center;">Enter your credentials</legend>
+            <label>Enter your username</label><br>
+            <input type="email" placeholder="xyz@abc.com" name="email"> <br><br>
+            <label>Enter your Qualification</label><br>
+            <input type="text" placeholder="Ex:BSc I.T" name="degree"><br>
+            <label>Select Gender</label><br>
+            <input type="radio" name="Gender" value="Male"> Male</input>
+            <input type="radio" name="Gender" value="Female"> Female</input><br><br>
+            <label>Enter your Address </label><br>
+            <textarea name="address"></textarea><br><br>
+            <label for="">D.O.B(Date of Birth)</label>
+            <input type="date" name="dob"><br><br>
+            <label for="">Select your Profession</label><br>
+            <select name="Profession">
+                <optgroup label="Frontend Developer">
+                    <option>HTML</option>
+                    <option>Javascript</option>
+                    <option>Php</option>
+                </optgroup>
+                <optgroup label="Backend Developer">
+                    <option>JAVA</option>
+                    <option>C++</option>
+                    <option>C#</option>
+                </optgroup>
+            </select><br><br>
+            <label>Mobile Number</label>
+            <input type="tel" name="mnumber"><br><br>
+            <label>Telephone Number</label>
+            <input type="tel" name="tnumber"><br><br>
+            <button type="submit" style="margin-left: 500px;">SUBMIT</button>
+            </legend>
+        </form>
+    </div>
+    <button id="toggle">Click To Hide Registration Form</button>
+</body>
+
+</html>
