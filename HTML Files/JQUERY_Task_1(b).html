@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#ani1").animate({ left: '1000px'  });
+                $("#ani1").fadeOut('fast');
+                $("#ani2").animate({ left: '1000px'  });
+            });
+        });
+    </script>
+</head>
+
+<body>
+   
+    
+    <button>Start Animation</button>
+    <div style="position:relative;" id="ani1">
+        <img src="lambo.jpg" alt="">
+    </div>
+    <div style="position:relative; margin-left: 1000px;" id="ani2">
+        <img src="lambo2.jpg" alt="">
+    </div>
+</body>
+
+</html>

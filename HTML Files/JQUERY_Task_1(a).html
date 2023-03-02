@@ -13,14 +13,22 @@
     <script>
         $(document).ready(function () {
             $("#toggle").click(function () {
-                $("div").toggle();
+                $("#tog1").toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#toggle1").click(function () {
+                $("#tog2").toggle();
             });
         });
     </script>
     <br>
-    <div style="background-color: aquamarine;">
+    <div id="tog1" style="background-color: aquamarine;">
         <legend style="text-align: center;"> Registration Form</legend>
-        <form name="regform" action="" method="post" onsubmit="sub()">
+        <form name="regform" action="">
             </legend>
             <label for=""></label>
             <legend style="text-align:center;">Enter your credentials</legend>
@@ -56,7 +64,23 @@
             </legend>
         </form>
     </div>
-    <button id="toggle">Click To Hide Registration Form</button>
+    <button style="margin-left: 500px;" id="toggle">Click To Hide Registration Form</button>
+
+    <div id="tog2" style="background-color: aquamarine;">
+        <legend style="text-align: center;"> Log In Form</legend>
+        <form name="regform" action="">
+            </legend>
+            <label for=""></label>
+            <legend style="text-align:center;">Enter your credentials</legend>
+            <label>Enter your username</label><br>
+            <input type="email" placeholder="xyz@abc.com" name="email"> <br><br>
+            <label>Enter your Password</label><br>
+            <input type="password" placeholder="@!#$%....." name="passwd"> <br><br>
+            <button type="submit" style="margin-left: 500px;">LOG IN</button>
+        </form>
+
+    </div>
+    <button id="toggle1">Click To Hide LogIn Form</button>
 </body>
 
 </html>
