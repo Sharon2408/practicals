@@ -41,7 +41,7 @@ int main()
         case 2 :
             cout<<"Enter The Amount you need to Deposit"<<endl;
             cin>>dep_amt;
-            cout<<"The Deposited Amount is "<<dep_amt<<"Your new balance is"<<Deposit(dep_amt)<<endl;
+            cout<<"The Deposited Amount is "<<dep_amt<<Deposit(dep_amt)<<endl;
             break;
         case 3 :
              cout<<"Enter the Amount you need to Withdraw:"<<endl;
