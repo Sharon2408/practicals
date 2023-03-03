@@ -8,26 +8,51 @@
     <title>Document</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function () {
+         $(document).ready(function () {
             $("button").click(function () {
-                $("#ani1").animate({ left: '1000px'  });
-                $("#ani1").fadeOut('fast');
-                $("#ani2").animate({ left: '1000px'  });
+                $("#ani4").animate({ left: '400px'}); 
+                $("#ani4").animate({ bottom: '800px'} ,3000);       
             });
         });
+        $(document).ready(function () {
+            $("button").click(function () {
+                $("#ani1,#ani2,#ani3").delay(2500)
+                 $("#ani1").animate({ left: '800px'  } ,1000  );
+                $("#ani1").animate({ left: '900px'  } , 3000 );
+                $("#ani2").animate({ left: '500px'  } ,1000  );
+                $("#ani2").animate({ left: '950px'  } , 3000 );
+                $("#ani3").animate({ left: '500px'  } ,1000  );
+                $("#ani3").animate({ left: '1050px'  } , 2000 );
+                
+                
+            });
+        });
+       
     </script>
+    <style>
+        
+    </style>
 </head>
 
 <body>
    
     
-    <button>Start Animation</button>
+    <button>Start Race</button>
+    <div id="new">
     <div style="position:relative;" id="ani1">
         <img src="lambo.jpg" alt="">
+       
     </div>
-    <div style="position:relative; margin-left: 1000px;" id="ani2">
-        <img src="lambo2.jpg" alt="">
+    <div style="position:relative; " id="ani2">
+        <img src="lambo.jpg" alt="">
     </div>
+    <div style="position:relative;  " id="ani3">
+        <img src="lambo.jpg" alt="">
+    </div>
+    <span style="position: relative;" id="ani4">
+        <img src="speedfest-automovilismo.gif" alt="">
+    </span>
+</div>
 </body>
 
 </html>
