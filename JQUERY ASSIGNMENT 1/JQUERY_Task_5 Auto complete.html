@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang = "en">
+   <head>
+      <meta charset = "utf-8">
+      <title>jQuery UI Autocomplete functionality</title>
+      <link href = "https://code.jquery.com/ui/1.10.4/themes/UI-darkness/jquery-ui.css"
+         rel = "stylesheet">
+      <script src = "https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      
+      <!-- Javascript -->
+      <script>
+         $(function() {
+            var availableTutorials  =  [
+               "Sharon",
+               "Sharma",
+               "Alffin",
+               "Lohith",
+               "Varma",
+               "Lokesh",
+               "Saran",
+               "Sagna",
+            ];
+            $( "#automplete-1" ).autocomplete({
+               source: availableTutorials
+            });
+         });
+      </script>
+   </head>
+   
+   <body>
+     
+      <div class = "ui-widget">
+         <p>Enter Your Name</p>
+         <label for = "automplete-1">Name </label>
+         <input id = "automplete-1">
+      </div>
+   </body>
+</html>

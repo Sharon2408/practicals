@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://code.jquery.com/ui/1.10.4/themes/UI-darkness/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+
+        $(function () {
+            $("#accordion").accordion({
+                collapsible: true
+            });
+        });
+        $(document).ready(function()
+  {
+        $("button").click(function () {
+            var url ='ph3.jpg';
+            var url1 ='ph4.jpg';
+
+     $(`<img src='${url}'>`).css({'width' : '200','height':'200'}).appendTo('#accordion');
+     $(`<img src='${url1}'>`).css({'width' : '200','height':'200'}).appendTo('#accordion');
+ });
+
+
+        });
+
+    </script>
+    <style>
+        #accordion {
+            font-size: 14px;
+            color: rgb(88, 24, 207);
+            text-align: center;
+            font-family: fantasy;
+            border-radius: 20px;
+            width: 50%;
+        }
+        .b{
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="accordion">
+        <h2 class="b">Mobile Phones</h2>
+        <div class="a">
+            
+                <img src="ph1.jpg" width="200px" height="200px">
+                <img src="ph2.jpg" width="200px" height="200px">
+
+            
+
+        </div>
+
+
+    </div>
+    <hr>
+    <button>Append Mobile Phones</button>
+</body>
+
+</html>
