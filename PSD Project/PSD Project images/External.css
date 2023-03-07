@@ -1,0 +1,341 @@
+body {
+    margin: 0px;
+}
+
+#logo {
+    padding-left: 40px;
+}
+
+#nav1 {
+    background-color: rgb(20, 20, 70);
+    width: 1343px;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#bgimg {
+    width: 1343px;
+    height: 707px;
+    background-image: url(Artboard\ 1.png);
+
+}
+
+
+#bgimg2 {
+    width: 1343px;
+    height: 707px;
+    background-image: url(bg2.png);
+
+
+}
+
+#bgimg3 {
+    width: 1343px;
+    height: 790px;
+    background-image: url(bgimg3.png);
+}
+
+#bgimg4 {
+    width: 1343px;
+    height: 707px;
+    background-image: url(bg2.png);
+
+}
+
+.centered2 {
+    position: absolute;
+    top: 65%;
+    left: 2%;
+    width: 1199px;
+    height: 210px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
+
+.centered3 {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+}
+
+.centered4 {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1%;
+    padding-left: 73%;
+}
+
+.centered5 {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1%;
+    padding-left: 45%;
+}
+
+.centered6 {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 1%;
+    padding-left: 19%;
+}
+
+.centered7 {
+    color: #ffffff;
+    position: absolute;
+
+    margin-top: 6%;
+    padding-left: 56%;
+}
+
+.centered8 {
+    color: #ffffff;
+    position: absolute;
+    margin-top: 6%;
+    padding-left: 18%;
+}
+
+.centered9 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 6%;
+    padding-left: 0%;
+}
+
+#searchimg:hover {
+    opacity: 0.8;
+
+}
+
+#orderbutton {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 322px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: rgb(20, 20, 70);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+#page2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: px;
+}
+
+.cardtext {
+    display: flex;
+}
+
+#img2text {
+
+
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+#img2cards {
+    display: flex;
+}
+
+#img2cards1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    margin-left: 250px;
+
+}
+
+#img2cards2 {
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    margin-left: 170px;
+}
+
+#img2cards3 {
+    width: 180px;
+    height: 180px;
+    border-radius: 150px;
+    margin-left: 180px;
+}
+
+#pg2img1 {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 20%;
+
+}
+
+#pg2img2 {
+
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 175px;
+    height: 175px;
+
+
+}
+
+#pg2img3 {
+
+    position: absolute;
+    left: 70px;
+    top: 140%;
+}
+
+#pg2img4 {
+
+    position: absolute;
+    left: 1190px;
+    top: 124%;
+}
+
+#pg2img5 {
+
+    position: absolute;
+    left: 1300px;
+    top: 169%;
+}
+
+#pg2img6 {
+
+    position: absolute;
+    left: 1246px;
+    top: 220%;
+}
+
+#pg3img1 {
+
+    position: absolute;
+    width: 150px;
+    left: 50px;
+    top: 255%;
+}
+
+#pg3img2 {
+
+    position: absolute;
+    height: 363px;
+    width: 364px;
+    border-radius: 232px;
+    left: 60px;
+    top: 32%;
+
+}
+
+#pg3img3 {
+    position: absolute;
+    top: 450px;
+}
+
+#orderbutton2 {
+    position: absolute;
+    top: 230%;
+    left: 418%;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 230px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: rgb(20, 20, 70);
+    padding: 10px;
+
+
+}
+
+#pg3img4 {
+    position: absolute;
+    left: 630px;
+    bottom: 220px;
+}
+
+#p3head1 {
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    margin-left: 420%;
+    font-size: 75px;
+    font-weight: 700;
+    color: #21243d;
+
+
+
+}
+
+#p3text {
+    position: absolute;
+    color: #21243d;
+    width: 500px;
+    left: 640px;
+
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#pg3img5 {
+    position: absolute;
+    left: 1190px;
+    bottom: 100px;
+}
+
+#pg3img6 {
+    position: absolute;
+    left: 500px;
+}
+
+#pg4img1 {
+    position: absolute;
+    left: 50px;
+    margin-top: 50px;
+}
+
+#pg4img2 {
+    position: absolute;
+    left: 1100px;
+    margin-top: 50px;
+}
+
+#p4head1 {
+    font-size: 62px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#p4card {
+    display: flex;
+    width: 274px;
+    height: 275px;
+    border-radius: 138px;
+    background-color: #21243d;
+    border: 5px solid #ffffff;
+}
