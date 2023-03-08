@@ -1,7 +1,3 @@
-body {
-    margin: 0px;
-}
-
 #logo {
     padding-left: 40px;
 }
@@ -21,61 +17,63 @@ body {
     color: #ffffff;
     font-weight: bold;
 }
-
+/* page-1 background image */
 #bgimg {
     width: 1343px;
     height: 707px;
-    background-image: url(Artboard\ 1.png);
-
+    background-image: url(./Assets/Artboard\ 1.png);
+    background-color: rgb(255, 209, 126);
+    background-blend-mode: multiply;
 }
 
-
+/* page-2 background image */
 #bgimg2 {
     width: 1343px;
     height: 707px;
-    background-image: url(bg2.png);
+    background-image: url(./Assets/bg2.png);
 
 
 }
-
+/* page-3 background image */
 #bgimg3 {
     width: 1343px;
     height: 800px;
-    background-image: url(bgimg3.png);
+    background-image: url(./Assets/bgimg3.png);
 
 
 }
-
+/* page-4 background image */
 #bgimg4 {
     width: 1343px;
     height: 710px;
-    background-image: url(bg2.png);
+    background-image: url(./Assets/bg2.png);
 
 }
-
+/* page-5 background image */
 #bgimg5 {
     width: 1343px;
     height: 707px;
-    background-image: url(bgimg3.png);
+    background-image: url(./Assets/bgimg3.png);
 
 }
-
+/* page-6 background image */
 #bgimg6 {
     width: 1343px;
     height: 974px;
-    background-image: url(Place\ Your\ Image\ Here\ 3.png);
-opacity: 0.65;
+    background-image: url(./Assets/Place\ Your\ Image\ Here\ 3.png);
+    background-color: rgb(33, 36, 61);
+    background-blend-mode: multiply;
 
 }
-
+/* page-7 background image */
 #bgimg7 {
     width: 1343px;
     height: 843px;
-    background-image: url(Shape\ \(10\).png);
+    background-image: url(./Assets/Shape\ \(10\).png);
 
 
 }
-
+/* page-8 background image */
 #bgimg8 {
     width: 1343px;
     height: 395px;
@@ -182,12 +180,9 @@ opacity: 0.65;
 }
 
 #img2text {
-
-
     font-size: 25px;
     color: #ffffff;
-    font-weight: 400;
-
+    font-weight: 700;
     text-align: center;
 }
 
@@ -361,7 +356,7 @@ opacity: 0.65;
 
 #pg4disp {
     display: flex;
-    
+
 }
 
 
@@ -374,6 +369,7 @@ opacity: 0.65;
     margin-left: 59px;
 
 }
+
 #p4head2 {
     position: absolute;
     font-size: 55px;
@@ -383,6 +379,7 @@ opacity: 0.65;
     margin-left: 59px;
 
 }
+
 #p4head3 {
     position: absolute;
     font-size: 55px;
@@ -392,7 +389,8 @@ opacity: 0.65;
     margin-left: 59px;
 
 }
-#p4h1{
+
+#p4h1 {
     position: absolute;
     font-size: 45px;
     color: #ffffff;
@@ -400,7 +398,8 @@ opacity: 0.65;
     margin-top: 115px;
     margin-left: 52px;
 }
-#p4h2{
+
+#p4h2 {
     position: absolute;
     font-size: 45px;
     color: #ffffff;
@@ -408,7 +407,8 @@ opacity: 0.65;
     margin-top: 115px;
     margin-left: 40px;
 }
-#p4h3{
+
+#p4h3 {
     position: absolute;
     font-size: 45px;
     color: #ffffff;
@@ -426,11 +426,12 @@ opacity: 0.65;
     background-color: #21243d;
     border: 5px solid #ffffff;
     margin-top: 300px;
-margin-left: 900px;
+    margin-left: 900px;
 
 
 }
-#p4head{
+
+#p4head {
     position: absolute;
     font-size: 55px;
     color: #ffffff;
@@ -536,7 +537,7 @@ margin-left: 900px;
 
 #orderbutton3 {
     position: absolute;
-   margin-top: 35%;
+    margin-top: 35%;
     left: 12%;
     text-decoration: none;
     font-size: 25px;
@@ -770,22 +771,25 @@ margin-left: 900px;
     font-weight: 400;
     color: #ffffff;
 }
-#p8text3{
+
+#p8text3 {
     position: absolute;
-   color: #ffffff;
-   margin-left: 600px; 
-   margin-top:150px ;
+    color: #ffffff;
+    margin-left: 600px;
+    margin-top: 150px;
 }
-#p8text2{
+
+#p8text2 {
     position: absolute;
-   color: #ffffff;
-   margin-left: 880px; 
-   margin-top:150px ;
+    color: #ffffff;
+    margin-left: 880px;
+    margin-top: 150px;
 }
-#p8text4{
+
+#p8text4 {
     position: absolute;
-   color: #ffffff;
-   margin-left: 1150px; 
-   margin-top:150px ;
-   
+    color: #ffffff;
+    margin-left: 1150px;
+    margin-top: 150px;
+
 }
