@@ -48,7 +48,7 @@ body {
 
 #bgimg4 {
     width: 1343px;
-    height: 707px;
+    height: 710px;
     background-image: url(bg2.png);
 
 }
@@ -64,7 +64,7 @@ body {
     width: 1343px;
     height: 974px;
     background-image: url(Place\ Your\ Image\ Here\ 3.png);
-
+opacity: 0.65;
 
 }
 
@@ -78,7 +78,7 @@ body {
 
 #bgimg8 {
     width: 1343px;
-    height: 600px;
+    height: 395px;
     background-color: #111111;
     display: flex;
 }
@@ -245,21 +245,21 @@ body {
 
     position: absolute;
     left: 1190px;
-    top: 116.5%;
+    top: 124%;
 }
 
 #pg2img5 {
 
     position: absolute;
     left: 1300px;
-    top: 159%;
+    top: 169%;
 }
 
 #pg2img6 {
 
     position: absolute;
     left: 1246px;
-    top: 210%;
+    top: 220%;
 }
 
 #pg3img1 {
@@ -267,7 +267,7 @@ body {
     position: absolute;
     width: 150px;
     left: 50px;
-    top: 235%;
+    top: 255%;
 
 }
 
@@ -361,21 +361,64 @@ body {
 
 #pg4disp {
     display: flex;
-    position: absolute;
+    
 }
 
 
 #p4head1 {
     position: absolute;
-    font-size: 65px;
+    font-size: 55px;
     color: #ffffff;
     font-weight: 700;
-    margin-top: 55px;
-    left: 500px;
+    margin-top: 45px;
+    margin-left: 59px;
 
+}
+#p4head2 {
+    position: absolute;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-left: 59px;
+
+}
+#p4head3 {
+    position: absolute;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-left: 59px;
+
+}
+#p4h1{
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-left: 52px;
+}
+#p4h2{
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-left: 40px;
+}
+#p4h3{
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-left: 40px;
 }
 
 #p4card {
+    position: absolute;
     display: flex;
     width: 230px;
     height: 230px;
@@ -383,9 +426,17 @@ body {
     background-color: #21243d;
     border: 5px solid #ffffff;
     margin-top: 300px;
+margin-left: 900px;
 
 
-
+}
+#p4head{
+    position: absolute;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 500px;
 }
 
 #p4card1 {
@@ -396,7 +447,7 @@ body {
     background-color: #21243d;
     border: 5px solid #ffffff;
     margin-top: 300px;
-
+    margin-left: 130px;
 
 
 }
@@ -409,7 +460,7 @@ body {
     background-color: #21243d;
     border: 5px solid #ffffff;
     margin-top: 300px;
-
+    margin-left: 180px;
 
 }
 
@@ -425,26 +476,26 @@ body {
 
 #pg4img3 {
     position: absolute;
-    margin-top: 200px;
-    margin-left: 100px;
+    margin-top: 100px;
+    margin-left: 1150px;
 }
 
 #pg4img4 {
     position: absolute;
-    margin-top: 600px;
-    margin-left: 1150px;
+    margin-top: 200px;
+    margin-left: 50px;
 }
 
 #pg4img5 {
     position: absolute;
-    margin-top: 595px;
+    margin-top: 70px;
     margin-left: 750px;
 }
 
 #pg4img6 {
     position: absolute;
-    margin-top: 595px;
-    margin-left: 150px;
+    margin-top: 70px;
+    margin-left: 280px;
 }
 
 #pg5img1 {
@@ -459,21 +510,21 @@ body {
     width: 364px;
     border-radius: 232px;
     left: 850px;
-    top: 472%;
+    margin-top: 8%;
 
 }
 
 #pg5img3 {
     position: absolute;
     left: 1230px;
-    top: 528%;
+    margin-top: 35%;
 
 }
 
 #pg5img4 {
     position: absolute;
     left: 490px;
-    top: 460%;
+    margin-top: 3%;
 
 }
 
@@ -485,7 +536,7 @@ body {
 
 #orderbutton3 {
     position: absolute;
-    top: 520%;
+   margin-top: 35%;
     left: 12%;
     text-decoration: none;
     font-size: 25px;
@@ -503,14 +554,14 @@ body {
 
 #pg5img6 {
     position: absolute;
-    margin-top: 105px;
+    margin-top: 50px;
     margin-left: 150px;
 }
 
 #p5head1 {
     width: 500px;
     position: absolute;
-    top: 475%;
+    margin-top: 9%;
     margin-left: 10%;
     font-size: 75px;
     font-weight: 700;
@@ -525,7 +576,7 @@ body {
     color: #21243d;
     width: 600px;
     margin-left: 10%;
-    top: 495%;
+    margin-top: 20%;
     font-size: 25px;
     font-weight: 700;
 }
@@ -651,9 +702,9 @@ body {
     position: absolute;
     width: 500px;
     position: absolute;
-    margin-top: 12%;
+    margin-top: 5%;
     margin-left: 3%;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -665,39 +716,39 @@ body {
     font-size: 20px;
     color: #ffffff;
     font-weight: 400;
-    margin-top: 250px;
+    margin-top: 150px;
     margin-left: 3%;
 }
 
 #font1 {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: 30px;
 }
 
 #font2 {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: 130px;
 }
 
 #font3 {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: 230px;
 }
 
 #font4 {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 300px;
     margin-left: 330px;
 }
 
 #p8head2 {
     position: absolute;
     margin-left: 870px;
-    margin-top: 12%;
-    font-size: 35px;
+    margin-top: 5%;
+    font-size: 25px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -705,8 +756,8 @@ body {
 #p8head3 {
     position: absolute;
     margin-left: 598px;
-    margin-top: 12%;
-    font-size: 35px;
+    margin-top: 5%;
+    font-size: 25px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -714,8 +765,8 @@ body {
 #p8head4 {
     position: absolute;
     margin-left: 1150px;
-    margin-top: 12%;
-    font-size: 35px;
+    margin-top: 5%;
+    font-size: 25px;
     font-weight: 400;
     color: #ffffff;
 }
@@ -723,18 +774,18 @@ body {
     position: absolute;
    color: #ffffff;
    margin-left: 600px; 
-   margin-top:250px ;
+   margin-top:150px ;
 }
 #p8text2{
     position: absolute;
    color: #ffffff;
    margin-left: 880px; 
-   margin-top:250px ;
+   margin-top:150px ;
 }
 #p8text4{
     position: absolute;
    color: #ffffff;
    margin-left: 1150px; 
-   margin-top:250px ;
+   margin-top:150px ;
    
 }
