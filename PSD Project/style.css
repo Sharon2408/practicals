@@ -90,7 +90,7 @@
     height: 210px;
     font-size: 25px;
     color: #ffffff;
-    font-weight: 400;
+    font-weight: 700;
     font-family: "Montserrat";
 }
 
@@ -126,9 +126,10 @@
 .centered7 {
     color: #ffffff;
     position: absolute;
-
+    font-weight: 700;
     margin-top: 6%;
     padding-left: 56%;
+  
 }
 
 .centered8 {
@@ -136,6 +137,7 @@
     position: absolute;
     margin-top: 6%;
     padding-left: 18%;
+    font-weight: 700;
 }
 
 .centered9 {
@@ -143,6 +145,7 @@
     font-size: 25px;
     margin-top: 6%;
     padding-left: 0%;
+    font-weight: 700;
 }
 
 #searchimg:hover {
@@ -172,7 +175,7 @@
     color: #ffffff;
     font-weight: 700;
     text-align: center;
-    padding-top: px;
+    margin-bottom: 30px;
 }
 
 .cardtext {
@@ -184,6 +187,7 @@
     color: #ffffff;
     font-weight: 700;
     text-align: center;
+    
 }
 
 #img2cards {
@@ -214,7 +218,7 @@
 
 #pg2img1 {
     position: absolute;
-    margin-top: 50px;
+    margin-bottom: 100px;
     margin-right: 20%;
 
 }
