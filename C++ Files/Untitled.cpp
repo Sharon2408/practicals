@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int Balance=1000;
+int Balance=0;
 
 int Withdrawal(int withdraw_amt);
 int Deposit(int dep_amt);
@@ -15,7 +15,7 @@ int main()
     int choice;
     while(a==0)
     {
-        cout<<"enter Your Choice"<<endl;
+        cout<<"***Enter Your Choice***"<<endl;
         cout<<"1.Create A New Account"<<endl;
         cout<<"2.Deposit"<<endl;
         cout<<"3.Withdrawal"<<endl;
@@ -41,12 +41,15 @@ int main()
         case 2 :
             cout<<"Enter The Amount you need to Deposit"<<endl;
             cin>>dep_amt;
-            cout<<"The Deposited Amount is "<<dep_amt<<Deposit(dep_amt)<<endl;
+            cout<<"The Deposited Amount is  "<<dep_amt<<"  "<<Deposit(dep_amt)<<endl;
             break;
         case 3 :
              cout<<"Enter the Amount you need to Withdraw:"<<endl;
             cin>>withdraw_amt;
-            cout<<"The Withdraw Amount is"<< withdraw_amt<<"The Balance Amount is "<<Withdrawal( withdraw_amt)<<endl;
+            cout<<"The Withdraw Amount is"<< withdraw_amt<<" The Balance Amount is "<<Withdrawal( withdraw_amt)<<endl;
+            break;
+        case 4 :
+            cout<<"Your Balance is  "<<Balance<<endl<<endl;
             break;
 default :
 cout<<"THANK YOU VISIT AGAIN";
@@ -69,8 +72,9 @@ cout<<"THANK YOU VISIT AGAIN";
 Deposit(int dep_amt)
 {
 if(dep_amt>0){
+int Balance=0;
          Balance=Balance+dep_amt;
-         cout<<"Your Balance Amount is"<<Balance;
+         cout<<"  Your Balance Amount is  "<<Balance;
 }
 else if(dep_amt==0){
     cout<<"You must atleast deposit ruppess 1000";
