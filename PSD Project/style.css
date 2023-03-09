@@ -90,14 +90,12 @@
 
 .centered2 {
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 2%;
-    width: 1199px;
-    height: 210px;
+    width: 1100px;
     font-size: 25px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "Montserrat";
 }
 
 .centered4 {
@@ -161,8 +159,9 @@
     background-color: rgb(20, 20, 70);
     padding: 13px;
     position: absolute;
-    top: 90%;
+    top: 100%;
     left: 8%;
+
 }
 
 #page2 {
@@ -748,7 +747,6 @@
     color: #ffffff;
     margin-left: 1150px;
     margin-top: 150px;
-
 }
 
 #foot {
