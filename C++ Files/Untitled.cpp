@@ -76,7 +76,7 @@ int Balance=0;
          Balance=Balance+dep_amt;
          cout<<"  Your Balance Amount is  "<<Balance;
 }
-else if(dep_amt==0){
+else if(dep_amt<1000){
     cout<<"You must atleast deposit ruppess 1000";
 }
 }
