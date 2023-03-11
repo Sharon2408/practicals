@@ -1,3 +1,12 @@
+/* Page-1 Styling Start */
+#bgimg {
+    width: 1343px;
+    height: 707px;
+    background-image: url(./Assets/Artboard\ 1.png);
+    background-color: rgb(255, 209, 126);
+    background-blend-mode: multiply;
+}
+
 #logo {
     padding-left: 40px;
 }
@@ -6,6 +15,10 @@
     background-color: rgb(20, 20, 70);
     width: 1343px;
 
+}
+
+#searchimg:hover {
+    opacity: 0.8;
 }
 
 .centered {
@@ -18,76 +31,6 @@
     font-weight: bold;
 }
 
-/* page-1 background image */
-#bgimg {
-    width: 1343px;
-    height: 707px;
-    background-image: url(./Assets/Artboard\ 1.png);
-    background-color: rgb(255, 209, 126);
-    background-blend-mode: multiply;
-}
-
-/* page-2 background image */
-#bgimg2 {
-    width: 1343px;
-    height: 707px;
-    background-image: url(./Assets/bg2.png);
-
-
-}
-
-/* page-3 background image */
-#bgimg3 {
-    width: 1343px;
-    height: 800px;
-    background-image: url(./Assets/bgimg3.png);
-
-
-}
-
-/* page-4 background image */
-#bgimg4 {
-    width: 1343px;
-    height: 710px;
-    background-image: url(./Assets/bg2.png);
-
-}
-
-/* page-5 background image */
-#bgimg5 {
-    width: 1343px;
-    height: 707px;
-    background-image: url(./Assets/bgimg3.png);
-
-}
-
-/* page-6 background image */
-#bgimg6 {
-    width: 1343px;
-    height: 974px;
-    background-image: url(./Assets/Place\ Your\ Image\ Here\ 3.png);
-    background-color: rgb(33, 36, 61);
-    background-blend-mode: multiply;
-
-}
-
-/* page-7 background image */
-#bgimg7 {
-    width: 1343px;
-    height: 843px;
-    background-image: url(./Assets/Shape\ \(10\).png);
-
-
-}
-
-/* page-8 background image */
-#bgimg8 {
-    width: 1343px;
-    height: 395px;
-    background-color: #111111;
-    display: flex;
-}
-
 .centered2 {
     position: absolute;
     top: 70%;
@@ -96,6 +39,39 @@
     font-size: 25px;
     color: #ffffff;
     font-weight: 700;
+}
+
+#orderbutton {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    width: 270px;
+    height: 65px;
+    border-radius: 33px;
+    background-color: rgb(20, 20, 70);
+    padding: 13px;
+    position: absolute;
+    top: 100%;
+    left: 8%;
+}
+
+/* Page- 1 Styling End */
+
+/* Page-2 Styling Start */
+#bgimg2 {
+    width: 1343px;
+    height: 707px;
+    background-image: url(./Assets/bg2.png);
+}
+
+#page2 {
+    font-size: 64px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .centered4 {
@@ -141,35 +117,6 @@
     margin-top: 6%;
     padding-left: 0%;
     font-weight: 700;
-}
-
-#searchimg:hover {
-    opacity: 0.8;
-}
-
-#orderbutton {
-    text-decoration: none;
-    font-size: 25px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    width: 270px;
-    height: 65px;
-    border-radius: 33px;
-    background-color: rgb(20, 20, 70);
-    padding: 13px;
-    position: absolute;
-    top: 100%;
-    left: 8%;
-
-}
-
-#page2 {
-    font-size: 64px;
-    color: #ffffff;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .cardtext {
@@ -245,12 +192,20 @@
     top: 220%;
 }
 
+/* Page- 2 Styling End */
+
+/* Page-3 Styling Starts  */
+#bgimg3 {
+    width: 1343px;
+    height: 800px;
+    background-image: url(./Assets/bgimg3.png);
+}
+
 #pg3img1 {
     position: absolute;
     width: 150px;
     left: 50px;
     top: 255%;
-
 }
 
 #pg3img2 {
@@ -267,6 +222,24 @@
     top: 450px;
 }
 
+#pg3img4 {
+    position: absolute;
+    left: 630px;
+    bottom: 200px;
+}
+
+#pg3img5 {
+    position: absolute;
+    left: 1190px;
+    bottom: 90px;
+}
+
+#pg3img6 {
+    position: absolute;
+    left: 1145px;
+    top: 400px;
+}
+
 #orderbutton2 {
     position: absolute;
     top: 230%;
@@ -281,12 +254,6 @@
     border-radius: 33px;
     background-color: rgb(20, 20, 70);
     padding: 10px;
-}
-
-#pg3img4 {
-    position: absolute;
-    left: 630px;
-    bottom: 200px;
 }
 
 #p3head1 {
@@ -308,16 +275,13 @@
     font-weight: 700;
 }
 
-#pg3img5 {
-    position: absolute;
-    left: 1190px;
-    bottom: 90px;
-}
+/* Page-3 Styling Ends */
 
-#pg3img6 {
-    position: absolute;
-    left: 1145px;
-    top: 400px;
+/* Page-4 Styling Starts */
+#bgimg4 {
+    width: 1343px;
+    height: 710px;
+    background-image: url(./Assets/bg2.png);
 }
 
 #pg4img1 {
@@ -332,19 +296,43 @@
     margin-top: 50px;
 }
 
+#pg4img4 {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#p4head {
+    position: absolute;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
+#p4text {
+    position: absolute;
+    margin-top: 150px;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-left: 150px;
+}
 
 #pg4disp {
     display: flex;
 }
 
-
-#p4head1 {
-    position: absolute;
-    font-size: 55px;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 45px;
-    margin-left: 59px;
+#p4card2 {
+    display: flex;
+    width: 230px;
+    height: 230px;
+    border-radius: 138px;
+    background-color: #21243d;
+    border: 5px solid #ffffff;
+    margin-top: 300px;
+    margin-left: 180px;
 }
 
 #p4head2 {
@@ -356,34 +344,7 @@
     margin-left: 59px;
 }
 
-#p4head3 {
-    position: absolute;
-    font-size: 55px;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 45px;
-    margin-left: 59px;
-}
-
-#p4h1 {
-    position: absolute;
-    font-size: 45px;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 115px;
-    margin-left: 52px;
-}
-
 #p4h2 {
-    position: absolute;
-    font-size: 45px;
-    color: #ffffff;
-    font-weight: 700;
-    margin-top: 115px;
-    margin-left: 40px;
-}
-
-#p4h3 {
     position: absolute;
     font-size: 45px;
     color: #ffffff;
@@ -404,13 +365,22 @@
     margin-left: 900px;
 }
 
-#p4head {
+#p4head1 {
     position: absolute;
     font-size: 55px;
     color: #ffffff;
     font-weight: 700;
-    margin-top: 25px;
-    margin-left: 500px;
+    margin-top: 45px;
+    margin-left: 59px;
+}
+
+#p4h1 {
+    position: absolute;
+    font-size: 45px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-left: 52px;
 }
 
 #p4card1 {
@@ -424,36 +394,28 @@
     margin-left: 130px;
 }
 
-#p4card2 {
-    display: flex;
-    width: 230px;
-    height: 230px;
-    border-radius: 138px;
-    background-color: #21243d;
-    border: 5px solid #ffffff;
-    margin-top: 300px;
-    margin-left: 180px;
+#p4head3 {
+    position: absolute;
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 45px;
+    margin-left: 59px;
 }
 
-#p4text {
+#p4h3 {
     position: absolute;
-    margin-top: 150px;
-    font-size: 25px;
+    font-size: 45px;
     color: #ffffff;
-    font-weight: 400;
-    margin-left: 150px;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-left: 40px;
 }
 
 #pg4img3 {
     position: absolute;
     margin-top: 100px;
     margin-left: 1150px;
-}
-
-#pg4img4 {
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 50px;
 }
 
 #pg4img5 {
@@ -466,6 +428,15 @@
     position: absolute;
     margin-top: 70px;
     margin-left: 280px;
+}
+
+/* Page-4 Styling Ends */
+
+/* Page-5 Styling Starts */
+#bgimg5 {
+    width: 1343px;
+    height: 707px;
+    background-image: url(./Assets/bgimg3.png);
 }
 
 #pg5img1 {
@@ -501,6 +472,12 @@
     margin-left: 610px;
 }
 
+#pg5img6 {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
 #orderbutton3 {
     position: absolute;
     margin-top: 35%;
@@ -515,12 +492,6 @@
     border-radius: 33px;
     background-color: rgb(20, 20, 70);
     padding: 10px;
-}
-
-#pg5img6 {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 150px;
 }
 
 #p5head1 {
@@ -543,6 +514,17 @@
     font-weight: 700;
 }
 
+/* Page-5 Styling Ends Here */
+
+/* Page-6 Styling Starts Here */
+#bgimg6 {
+    width: 1343px;
+    height: 974px;
+    background-image: url(./Assets/Place\ Your\ Image\ Here\ 3.png);
+    background-color: rgb(33, 36, 61);
+    background-blend-mode: multiply;
+}
+
 #pg6img1 {
     position: absolute;
     border-radius: 200px;
@@ -561,7 +543,7 @@
     margin-top: 450px;
 }
 
-#p6head1 {
+#pg6head1 {
     position: absolute;
     font-size: 45px;
     color: #ffffff;
@@ -570,18 +552,15 @@
     margin-top: 750px;
 }
 
-#ftext {
-    position: absolute;
-    padding-left: 30px;
-    font-weight: 400px;
-    font-size: 25px;
-    width: 800px;
-    height: 65px;
-    border-radius: 33px;
-    border-color: #ffffff;
-    margin-left: 300px;
-    margin-top: 500px;
+/* Page-6 Styling Ends Here */
+
+/* Page-7 Styling Starts Here  */
+#bgimg7 {
+    width: 1343px;
+    height: 843px;
+    background-image: url(./Assets/Shape\ \(10\).png);
 }
+
 
 #p7head1 {
     width: 500px;
@@ -604,7 +583,20 @@
     margin-top: 350px;
 }
 
-#orderbutton4 {
+#ftext {
+    position: absolute;
+    padding-left: 30px;
+    font-weight: 400px;
+    font-size: 25px;
+    width: 800px;
+    height: 65px;
+    border-radius: 33px;
+    border-color: #ffffff;
+    margin-left: 300px;
+    margin-top: 500px;
+}
+
+#Subscribebutton {
     position: absolute;
     margin-top: 500px;
     left: 68%;
@@ -620,42 +612,52 @@
     padding: 10px;
 }
 
-#pg7img5 {
+#pg7img1 {
     position: absolute;
-    margin-top: 650px;
-    margin-left: 600px;
+    margin-left: 1205px;
 }
 
-#pg7img4 {
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-
-#pg7img3 {
+#pg7img2 {
     position: absolute;
     margin-left: 1195px;
     margin-top: 630px;
 }
 
-#pg7img2 {
+#pg7img3 {
     position: absolute;
-    margin-left: 1205px;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
-#pg7img6 {
+#pg7img4 {
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 600px;
+}
+
+#pg7img5 {
     position: absolute;
     margin-left: 900px;
     margin-top: 80px;
 }
 
-#pg7img7 {
+#pg7img6 {
     position: absolute;
     margin-top: 750px;
     margin-left: 200px;
 }
 
-#p8head1 {
+/* Page-7 Styling Ends */
+
+/* Page-8 Styling Starts */
+#bgimg8 {
+    width: 1343px;
+    height: 395px;
+    background-color: #111111;
+    display: flex;
+}
+
+#pg8head1 {
     position: absolute;
     width: 500px;
     position: absolute;
@@ -666,7 +668,7 @@
     color: #ffffff;
 }
 
-#p8text {
+#pg8text1 {
     position: absolute;
     width: 458px;
     height: 244px;
@@ -677,31 +679,31 @@
     margin-left: 3%;
 }
 
-#font1 {
+#icon1 {
     position: absolute;
     margin-top: 300px;
     margin-left: 30px;
 }
 
-#font2 {
+#icon2 {
     position: absolute;
     margin-top: 300px;
     margin-left: 130px;
 }
 
-#font3 {
+#icon3 {
     position: absolute;
     margin-top: 300px;
     margin-left: 230px;
 }
 
-#font4 {
+#icon4 {
     position: absolute;
     margin-top: 300px;
     margin-left: 330px;
 }
 
-#p8head2 {
+#pg8head2 {
     position: absolute;
     margin-left: 870px;
     margin-top: 5%;
@@ -710,7 +712,19 @@
     color: #ffffff;
 }
 
-#p8head3 {
+#pg8text2 {
+    position: absolute;
+    color: #ffffff;
+    margin-left: 880px;
+    margin-top: 150px;
+}
+
+#foot2 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pg8head3 {
     position: absolute;
     margin-left: 598px;
     margin-top: 5%;
@@ -719,7 +733,19 @@
     color: #ffffff;
 }
 
-#p8head4 {
+#pg8text3 {
+    position: absolute;
+    color: #ffffff;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+#foot3 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#pg8head4 {
     position: absolute;
     margin-left: 1150px;
     margin-top: 5%;
@@ -728,38 +754,16 @@
     color: #ffffff;
 }
 
-#p8text3 {
-    position: absolute;
-    color: #ffffff;
-    margin-left: 600px;
-    margin-top: 150px;
-}
-
-#p8text2 {
-    position: absolute;
-    color: #ffffff;
-    margin-left: 880px;
-    margin-top: 150px;
-}
-
-#p8text4 {
+#pg8text4 {
     position: absolute;
     color: #ffffff;
     margin-left: 1150px;
     margin-top: 150px;
 }
 
-#foot {
+#foot4 {
     text-decoration: none;
     color: #ffffff;
 }
 
-#foot1 {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-#foot2 {
-    text-decoration: none;
-    color: #ffffff;
-}
+/* Page-8 Styling Ends */
