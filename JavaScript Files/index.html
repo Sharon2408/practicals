@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <style>
+        fieldset {
+            background-color: rgb(223, 88, 88);
+        }
+    </style>
+</head>
+
+<body>
+    <script src="Assesment.js"></script>
+    <form action=" " name="register" method="post" onsubmit="formvalidation()">
+        <fieldset>
+            <legend style="text-align: center;">
+                 FORM</legend>
+            <label>Name :</label>
+            <input type="text" required placeholder="name" name="name">
+            <br><br>
+            <label>Date of Birth :</label>
+            <input type="date" required placeholder="Dob" name="dob">
+            <br><br>
+            <label>gender :</label>
+            <input type="radio" name="gen" value="Male">Male
+            <input type="radio" name="gen" value="Female">Female
+            <br><br>
+            <label>Father name :</label>
+            <input type="text" required placeholder="father name" name="fname">
+            <br><br>
+            <label>address :</label>
+            <textarea rows="5" cols="50" name="address"></textarea>
+            <br><br>
+            <label>mobile no :</label>
+            <input type="text" pattern="[0-9]{10}" required placeholder="1234567890" name="mno">
+            <br><br>
+            <label>phone number :</label>
+            <input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{6}" required placeholder="99-999-999999" name="pno">
+            <br><br>
+            <label>Email id :</label>
+            <input type="email" required placeholder="gmail" name="mail">
+            <br><br>
+            <label>College Name :</label>
+            <input type="text" required placeholder="college name" name="cname">
+            <br><br>
+            <label>Mark Scored :</label>
+            <input type="text" pattern="[0-9]{2}.[0-9]{2}" required placeholder="00.00" name="mark">
+            <br><br>
+            <label>Personal Interest :</label>
+            <br>
+            <input type="checkbox" name="Interest" value="Badminton">Badminton
+            <input type="checkbox" name="Interest" value="Cricket">Cricket
+            <input type="checkbox" name="Interest" value="Basketball">Basketball
+            <br><br>
+            <button type="submit" style="margin-left:  550px;">SUBMIT</button>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
