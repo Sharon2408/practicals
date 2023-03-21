@@ -1,0 +1,14 @@
+[
+   {
+      "id": 1,
+      "pname": "Dell Inspiron 15",
+      "pdescription": "Dell Laptop",
+      "price": "43999"
+},
+{
+      "id": 2,
+      "pname": "Jabra Headphones",
+      "pdescription": "Jabra Headphones",
+      "price": "3500"
+}
+]
